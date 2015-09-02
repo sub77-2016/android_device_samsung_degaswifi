@@ -250,6 +250,13 @@ enum {
     HWC_DISPLAY_VIRTUAL_BIT     = 1 << HWC_DISPLAY_VIRTUAL,
 };
 
+enum {
+    HWC_POWER_MODE_OFF      = 0,
+    HWC_POWER_MODE_DOZE     = 1,
+    HWC_POWER_MODE_NORMAL   = 2,
+    HWC_POWER_MODE_DOZE_SUSPEND  = 3,
+};
+
 /*****************************************************************************/
 
 __END_DECLS
